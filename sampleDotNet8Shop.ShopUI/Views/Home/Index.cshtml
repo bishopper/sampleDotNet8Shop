@@ -1,0 +1,14 @@
+﻿@model PageData<Product>
+<h1>Wellcome to my Shop - asp.net Core 8</h1>
+
+@foreach(var item in Model.Data)
+{
+    <div>
+        <h4>@item.Name <span><small>@item.Price</small></span></h4>
+        <p>@item.Description</p>
+    </div>
+}
+
+<div>
+
+</div>
